@@ -1,7 +1,7 @@
 // Popup: choose an app and its version, see which advisories in the feed affect it.
 "use strict";
 
-const FEED_URL = "https://raw.githubusercontent.com/munimv2/ai-stack-advisories/main/advisories.json";
+const FEED_URL = "https://raw.githubusercontent.com/munimtechnologies/ai-stack-advisories/main/advisories.json";
 const MAX_AGE_MS = 6 * 60 * 60 * 1000;
 
 // Apps whose own web page can tell their version: the path asked on the tab's address,

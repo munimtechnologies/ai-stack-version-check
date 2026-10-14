@@ -2,7 +2,7 @@
 title: AI Stack Version Check
 author: MV2 of Munim, Inc.
 author_url: https://github.com/munimv2
-funding_url: https://github.com/munimv2/ai-stack-version-check
+funding_url: https://github.com/munimtechnologies/ai-stack-version-check
 version: 0.1.0
 license: Apache-2.0
 description: Checks this Open WebUI, its Ollama connections, or any version you type (n8n, LiteLLM, vLLM, Dify, ComfyUI and more) against an open feed of security advisories, including ones missing from OSV.dev.
@@ -21,9 +21,9 @@ import urllib.request
 
 from pydantic import BaseModel, Field
 
-FEED_URL = "https://raw.githubusercontent.com/munimv2/ai-stack-advisories/main/advisories.json"
-FEED_MIRROR = "https://cdn.jsdelivr.net/gh/munimv2/ai-stack-advisories@main/advisories.json"
-REPO_URL = "https://github.com/munimv2/ai-stack-version-check"
+FEED_URL = "https://raw.githubusercontent.com/munimtechnologies/ai-stack-advisories/main/advisories.json"
+FEED_MIRROR = "https://cdn.jsdelivr.net/gh/munimtechnologies/ai-stack-advisories@main/advisories.json"
+REPO_URL = "https://github.com/munimtechnologies/ai-stack-version-check"
 USER_AGENT = "ai-stack-version-check-openwebui/0.1.0"
 MAX_TARGETS = 20
 
@@ -225,7 +225,7 @@ def report_one(feed, product, version, where=""):
 
 def footer(feed):
     return (
-        f"Advisories from [munimv2/ai-stack-advisories](https://github.com/munimv2/ai-stack-advisories), "
+        f"Advisories from [munimtechnologies/ai-stack-advisories](https://github.com/munimtechnologies/ai-stack-advisories), "
         f"checked {cell(feed.get('checked') or '?')}. It lists published advisories only, so a clean result "
         "is not proof that a setup is safe: exposure, settings and plugins matter too. "
         f"[AI Stack Version Check]({REPO_URL}) by MV2 of Munim, Inc."

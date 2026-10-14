@@ -18,8 +18,8 @@ sys.path.insert(0, str(HERE))
 import match_reference as ref  # noqa: E402
 
 SOURCES = [
-    "https://raw.githubusercontent.com/munimv2/ai-stack-advisories/main/advisories.json",
-    "https://cdn.jsdelivr.net/gh/munimv2/ai-stack-advisories@main/advisories.json",
+    "https://raw.githubusercontent.com/munimtechnologies/ai-stack-advisories/main/advisories.json",
+    "https://cdn.jsdelivr.net/gh/munimtechnologies/ai-stack-advisories@main/advisories.json",
 ]
 REQUIRED = ("introduced", "fixed", "kind", "ids", "summary", "url")
 

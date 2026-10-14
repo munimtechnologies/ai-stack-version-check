@@ -16,7 +16,7 @@ sys.path.insert(0, str(HERE))
 
 import match_reference as ref  # noqa: E402
 
-FEED_URL = "https://raw.githubusercontent.com/munimv2/ai-stack-advisories/main/advisories.json"
+FEED_URL = "https://raw.githubusercontent.com/munimtechnologies/ai-stack-advisories/main/advisories.json"
 PERMISSIONS = {"activeTab", "scripting", "storage"}
 HOSTS = ["https://raw.githubusercontent.com/*"]
 SCRIPTS = ["lib/match.js", "popup.js"]

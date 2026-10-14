@@ -7,7 +7,7 @@ Last updated: 2026-10-14. Publisher: MV2 of Munim, Inc.
 What it does with data:
 
 - **Advisory feed.** It downloads a public file,
-  `https://raw.githubusercontent.com/munimv2/ai-stack-advisories/main/advisories.json`, from
+  `https://raw.githubusercontent.com/munimtechnologies/ai-stack-advisories/main/advisories.json`, from
   GitHub. As with any web request, GitHub sees your IP address. No other information is sent.
 - **Read from this tab.** Only when you click this button, the extension asks the page open in
   that tab for its own version number (for example `/api/version` on your Ollama server). The

@@ -9,5 +9,5 @@
   },
   "permissions": ["activeTab", "scripting", "storage"],
   "host_permissions": ["https://raw.githubusercontent.com/*"],
-  "homepage_url": "https://github.com/munimv2/ai-stack-version-check"
+  "homepage_url": "https://github.com/munimtechnologies/ai-stack-version-check"
 }

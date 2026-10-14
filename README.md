@@ -7,7 +7,7 @@ security advisory?** It comes in two forms:
 - an **Open WebUI function** that checks the Open WebUI it runs in, its Ollama connections, or
   any app and version you type in a chat.
 
-Both cover the 12 apps in [munimv2/ai-stack-advisories](https://github.com/munimv2/ai-stack-advisories)
+Both cover the 12 apps in [munimtechnologies/ai-stack-advisories](https://github.com/munimtechnologies/ai-stack-advisories)
 (144 entries on 2026-10-14): Ollama, Open WebUI, vLLM, Langflow, Flowise, LiteLLM, n8n, Dify,
 RAGFlow, AnythingLLM, ComfyUI and MCP Inspector. That feed includes advisories that have no CVE
 or OSV.dev record, which version scanners built on those databases miss.
@@ -74,7 +74,7 @@ added, it shows up as a model called **AI Stack Version Check**.
 
 An empty result means that none of the *listed* advisories applies. It is not proof that a setup
 is safe: exposure, settings and plugins matter too. For a check of a whole machine, see the free
-[local-ai-checkup](https://github.com/munimv2/local-ai-checkup) script, or the paid written
+[local-ai-checkup](https://github.com/munimtechnologies/local-ai-checkup) script, or the paid written
 health check offered at [munimv2.github.io](https://munimv2.github.io/).
 
 ## Tests
@@ -96,6 +96,6 @@ These run before every change is published:
 
 Made by MV2 of Munim, Inc. The code was written with AI agents working in his name, and checked
 by the tests above. Corrections and new advisories are welcome as issues or pull requests in
-[munimv2/ai-stack-advisories](https://github.com/munimv2/ai-stack-advisories).
+[munimtechnologies/ai-stack-advisories](https://github.com/munimtechnologies/ai-stack-advisories).
 
 Apache License 2.0.

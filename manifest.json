@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "AI Stack Version Check",
+  "version": "0.1.0",
+  "description": "Is your Ollama, Open WebUI, n8n, LiteLLM or ComfyUI version affected by a known security advisory? Check in two clicks.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "AI Stack Version Check"
+  },
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["https://raw.githubusercontent.com/*"],
+  "homepage_url": "https://github.com/munimv2/ai-stack-version-check"
+}

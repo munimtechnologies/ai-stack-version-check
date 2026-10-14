@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>AI Stack Version Check</title>
+<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+<h1>AI Stack Version Check</h1>
+<form id="form">
+  <label>App <select id="product"></select></label>
+  <label>Version <input id="version" placeholder="e.g. 0.6.34" autocomplete="off" spellcheck="false"></label>
+  <div class="row">
+    <button type="submit">Check</button>
+    <button type="button" id="read" hidden>Read from this tab</button>
+  </div>
+</form>
+<p id="status" role="status"></p>
+<ul id="results"></ul>
+<footer>
+  <p><span id="feed-info"></span> <button type="button" id="refresh" class="link">Update advisories</button></p>
+  <p>By MV2 of Munim, Inc. Advisories from <a href="https://github.com/munimv2/ai-stack-advisories" target="_blank" rel="noopener">munimv2/ai-stack-advisories</a>.</p>
+</footer>
+<script src="lib/match.js"></script>
+<script src="popup.js"></script>
+</body>
+</html>

@@ -138,7 +138,7 @@ class FunctionTests(unittest.TestCase):
         src = (HERE / "openwebui" / "ai_stack_version_check.py").read_text(encoding="utf-8")
         head = src.split('"""')[1]
         problems = [line for line in ("title: AI Stack Version Check", "author: MV2 of Munim, Inc.",
-                                      "version: 0.1.0", "license: MIT") if line not in head]
+                                      "version: 0.1.0", "license: Apache-2.0") if line not in head]
         self.assertTrue(src.startswith('"""\ntitle:'), "the frontmatter docstring must open the file")
         self.assertEqual(problems, [])
         self.assertNotIn(" an AI", src)

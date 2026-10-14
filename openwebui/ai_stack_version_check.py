@@ -4,7 +4,7 @@ author: MV2 of Munim, Inc.
 author_url: https://github.com/munimv2
 funding_url: https://github.com/munimv2/ai-stack-version-check
 version: 0.1.0
-license: MIT
+license: Apache-2.0
 description: Checks this Open WebUI, its Ollama connections, or any version you type (n8n, LiteLLM, vLLM, Dify, ComfyUI and more) against an open feed of security advisories, including ones missing from OSV.dev.
 """
 

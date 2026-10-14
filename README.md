@@ -98,4 +98,4 @@ Made by MV2 of Munim, Inc. The code was written with AI agents working in his na
 by the tests above. Corrections and new advisories are welcome as issues or pull requests in
 [munimv2/ai-stack-advisories](https://github.com/munimv2/ai-stack-advisories).
 
-MIT License.
+Apache License 2.0.

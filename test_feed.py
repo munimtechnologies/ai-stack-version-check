@@ -70,7 +70,7 @@ class FeedTests(unittest.TestCase):
     def test_tab_readers_name_feed_products(self):
         src = (HERE / "popup.js").read_text(encoding="utf-8")
         readers = re.findall(r"^  (\w+): \{ path: ", src, re.M)
-        self.assertEqual(sorted(readers), ["comfyui", "ollama", "openwebui"])
+        self.assertEqual(sorted(readers), ["comfyui", "flowise", "langflow", "ollama", "openwebui"])
         self.assertEqual([r for r in readers if r not in self.feed["products"]], [])
 
     def test_known_answers(self):

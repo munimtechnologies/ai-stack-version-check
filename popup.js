@@ -10,6 +10,8 @@ const READERS = {
   ollama: { path: "/api/version", key: ["version"] },
   openwebui: { path: "/api/config", key: ["version"] },
   comfyui: { path: "/system_stats", key: ["system", "comfyui_version"] },
+  langflow: { path: "/api/v1/version", key: ["version"] },
+  flowise: { path: "/api/v1/version", key: ["version"] },
 };
 
 const KIND_NOTES = {
